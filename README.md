@@ -1,4 +1,13 @@
-# NIM Stream Proxy
+<p align="center">
+  <img src="docs/banner.svg" alt="NIM Stream Proxy" width="700"/>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License"/></a>
+  <img src="https://img.shields.io/badge/python-3-blue?style=flat-square&logo=python&logoColor=white" alt="Python 3"/>
+  <img src="https://img.shields.io/badge/NVIDIA-NIM-76b900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA NIM"/>
+  <img src="https://img.shields.io/badge/OpenAI-API_compatible-412991?style=flat-square" alt="OpenAI compatible"/>
+</p>
 
 Local proxy that forces NVIDIA NIM streaming mode for non-streaming requests, then reassembles the response into a single block. Prevents timeouts on large models (70B+) that take too long to generate a full response in one shot.
 

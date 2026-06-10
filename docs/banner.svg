@@ -1,0 +1,21 @@
+<svg width="700" height="140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1b3a2d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#76b900;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8e44ad;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="700" height="140" fill="url(#bg)" rx="10"/>
+  <rect x="0" y="132" width="700" height="8" fill="url(#accent)" rx="0 0 10 10"/>
+  <text x="60" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#76b900" letter-spacing="3">NVIDIA NIM</text>
+  <text x="60" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#e6edf3">Stream Proxy</text>
+  <text x="60" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8b949e">Force streaming to prevent timeouts on large models</text>
+  <line x1="590" y1="70" x2="610" y2="70" stroke="#76b900" stroke-width="2" opacity="0.5"/>
+  <line x1="615" y1="70" x2="635" y2="70" stroke="#76b900" stroke-width="2" opacity="0.5"/>
+  <line x1="640" y1="70" x2="655" y2="70" stroke="#8e44ad" stroke-width="2" opacity="0.5"/>
+  <polygon points="660,65 670,70 660,75" fill="#8e44ad" opacity="0.6"/>
+</svg>
